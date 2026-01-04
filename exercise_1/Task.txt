@@ -1,0 +1,4 @@
+create a class with "animal" name and "name", "age" attribute and also "makeSound" method in it.
+Create 2 classes "dog", "cat" that are extend from "animal". These 2 class are override super class method.
+All off classes should have constructor.
+Don't use "public" keyword for attributes.

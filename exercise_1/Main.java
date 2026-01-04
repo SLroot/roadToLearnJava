@@ -6,9 +6,9 @@ import exercises.exercise_1.Animals.Cat;
 
 public class Main {
     public static void main(String[] args) {
-        Animals animal = new Animals();
-        Cat cat = new Cat();
-        Dog dog = new Dog();
+        Animals animal = new Animals("pepe", 1);
+        Cat cat = new Cat("jack", 2);
+        Dog dog = new Dog("subzero",3);
 
         animal.makeSound();
         cat.makeSound();
