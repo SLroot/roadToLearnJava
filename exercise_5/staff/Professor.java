@@ -1,4 +1,4 @@
-package exercises.exercise_2.staff;
+package exercises.exercise_5.staff;
 
 public class Professor extends Person {
     

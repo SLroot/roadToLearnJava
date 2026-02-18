@@ -1,17 +1,19 @@
 package exercises.exercise_1;
 
-import exercises.exercise_1.Animals.Animals;
-import exercises.exercise_1.Animals.Dog;
-import exercises.exercise_1.Animals.Cat;
-
 public class Main {
-    public static void main(String[] args) {
-        Animals animal = new Animals("pepe", 1);
-        Cat cat = new Cat("jack", 2);
-        Dog dog = new Dog("subzero",3);
+   public static void main(String[] args) {
+        Student student = new Student("saeid", 14, 15);
+        double average = student.getAverage();
+        System.out.println(average);
 
-        animal.makeSound();
-        cat.makeSound();
-        dog.makeSound();
-    }   
+        student.printStatus();
+
+        System.out.println();
+
+        Student student_1 = new Student("Ziba", 10, 11);
+        average = student_1.getAverage();
+        System.out.println(average);
+
+        student_1.printStatus();
+   } 
 }

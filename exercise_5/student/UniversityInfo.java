@@ -1,4 +1,4 @@
-package exercises.exercise_2.student;
+package exercises.exercise_5.student;
 
 public class UniversityInfo {
     static String universityName;

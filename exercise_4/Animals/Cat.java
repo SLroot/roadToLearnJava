@@ -1,4 +1,4 @@
-package exercises.exercise_1.Animals;
+package exercises.exercise_4.Animals;
 
 public class Cat extends Animals {
 

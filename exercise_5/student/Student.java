@@ -1,5 +1,5 @@
-package exercises.exercise_2.student;
-import  exercises.exercise_2.staff.Person;
+package exercises.exercise_5.student;
+import exercises.exercise_5.staff.Person;
 
 public class Student extends Person {
     
