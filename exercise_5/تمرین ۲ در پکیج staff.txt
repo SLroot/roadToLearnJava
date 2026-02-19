@@ -1,3 +1,0 @@
-تمرین ۲ :
-. در پکیج staff کلاسی به نام Person بسازید با ویژگی های age, name سپس کلاسی به نام Professor که از person ارث میبرد و متدی به نام teach() دارد.
-. در پکیج student کلاس Student را بسازید که از person ارث ببرد و متدی به نام study() داشته باشد و داخل همین پکیج کلاسی به نام UniversityInfo بسازید که یک فیلد static university name داشته باشد و یک متد static printinfo که اطلاعات عمومی دانشگاه را چاپ کند.
