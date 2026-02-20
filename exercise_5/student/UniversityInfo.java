@@ -1,9 +1,9 @@
 package exercises.exercise_5.student;
 
 public class UniversityInfo {
-    public static String universityName;
+    private static String universityName = "Sharif University";
 
     public static void printInfo() {
-        System.out.println("Sharif University - Tehran - Computer Science - Subway Station 1");
+        System.out.println(universityName);
     }
 }

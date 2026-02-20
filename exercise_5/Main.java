@@ -20,9 +20,6 @@ public class Main {
         Student student = new Student("mamad", 23);
         student.study();
 
-        String universityName = UniversityInfo.universityName = "Sharif University";
-        System.out.println(universityName);
-
         UniversityInfo.printInfo();
     }
 }
