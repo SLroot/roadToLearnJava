@@ -1,13 +1,13 @@
 package exercises.exercise_5;
 
-import exercises.exercise_5.staff.Person;
+// import exercises.exercise_5.staff.Person;
 import exercises.exercise_5.staff.Proffessor;
 import exercises.exercise_5.student.Student;
 import exercises.exercise_5.student.UniversityInfo;;;
 
 public class Main {
     public static void main(String[] args) {
-        Person person = new Person("saeid", 22);
+        // Person person = new Person("saeid", 22);
 
         // We can create person but we can not access to its fields. 
         // System.out.println(person.name);
