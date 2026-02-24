@@ -5,11 +5,18 @@ public class Student {
     private int id;
     private float grade;
 
-    public Student(String name, int id, float grade) {
+    public Student(String name, int id) {
         this.name = name;
         this.id = id;
-        if (grade >= 0 && grade <= 20) this.grade = grade;
-        else System.out.println("grade is invalid");
+    }
+
+    public void setGrae(float grade) {
+        if (grade <= 20 && grade >= 0) this.grade = grade;
+        else this.grade = 0;
+    }
+
+    public float getGrade() {
+        return this.grade;
     }
 
     public void getLetterGrade() {
@@ -20,13 +27,6 @@ public class Student {
         } else {
             System.out.println("C");
         }
-    }
-    public float getGrade() {
-        return this.grade;
-    }
-
-    public void setGrade(float grade) {
-        this.grade = grade;
     }
 
     public void printInfo() {
