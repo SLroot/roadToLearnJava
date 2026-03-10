@@ -10,7 +10,7 @@ public class Student {
         this.id = id;
     }
 
-    public void setGrae(float grade) {
+    public void setGrade(float grade) {
         if (grade <= 20 && grade >= 0) this.grade = grade;
         else this.grade = 0;
     }
@@ -19,14 +19,18 @@ public class Student {
         return this.grade;
     }
 
-    public void getLetterGrade() {
-        if (this.grade > 17 && this.grade <= 20) {
-            System.out.println("A");
-        } else if (this.grade >= 14 && this.grade <= 17) {
-            System.out.println("B");
-        } else {
-            System.out.println("C");
-        }
+    public int getId() {
+        return this.id;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public char getLetterGrade() {
+        if (this.grade > 17 && this.grade <= 20) return 'A';
+        else if (this.grade <= 17 && this.grade > 14) return 'B';
+        else return 'C';
     }
 
     public void printInfo() {
